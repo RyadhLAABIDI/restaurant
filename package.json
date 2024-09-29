@@ -1,0 +1,26 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "git",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-server": "nodemon server.js --ignore './client/'",
+    "start-client": "npm start --prefix client",
+    "dev": "concurrently \"npm run start-server\" \"npm run start-client\""
+  },
+  "author": "Ryadh Sarrah",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
+}

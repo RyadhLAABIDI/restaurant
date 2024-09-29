@@ -1,0 +1,15 @@
+.Signup-container {
+    background-image: url('img-Signup.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0,8;
+}
+
+.Signin-container {
+    background-image: url('img-Signin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0,8;
+}
